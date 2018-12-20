@@ -31,11 +31,11 @@ if(strpos($text, "/start") === 0 || $text=="ciao")
 switch ($text){
 	case "domanda 1"
 	$response = "risposta 1";
-	break
+	break;
 	
 	case "domanda 2"
 	$response = "risposta 2";
-	break
+	break;
 	
 	default:
 	$response = "Comando non valido!";
