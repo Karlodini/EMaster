@@ -29,11 +29,11 @@ if(strpos($text, "/start") === 0 || $text=="ciao")
 
 
 switch ($text){
-	case "domanda 1"
+	case "domanda 1":
 	$response = "risposta 1";
 	break;
 	
-	case "domanda 2"
+	case "domanda 2":
 	$response = "risposta 2";
 	break;
 	
