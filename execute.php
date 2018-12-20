@@ -26,18 +26,21 @@ if(strpos($text, "/start") === 0 || $text=="ciao")
 {
 	$response = "Ciao $firstname, benvenuto!";
 }
-elseif($text=="domanda 1")
-{
+
+
+switch ($text){
+	case "domanda 1"
 	$response = "risposta 1";
-}
-elseif($text=="domanda 2")
-{
+	break
+	
+	case "domanda 2"
 	$response = "risposta 2";
-}
-else
-{
+	break
+	
+	default:
 	$response = "Comando non valido!";
 }
+
 
 $parameters = array('chat_id' => $chatId, "text" => $response);
 $parameters["method"] = "sendMessage";
