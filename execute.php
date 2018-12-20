@@ -37,8 +37,6 @@ switch ($text){
 	$response = "risposta 2";
 	break;
 	
-	default:
-	$response = "Comando non valido!";
 }
 
 
