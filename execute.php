@@ -22,13 +22,12 @@ header("Content-Type: application/json");
 
 $response = '';
 
-if(strpos($text, "/start") === 0 || $text=="ciao")
-{
-	$response = "Ciao $firstname, benvenuto!";
-}
-
 
 switch ($text){
+	case "/start"
+	$response = "Ciao $firstname, benvenuto!";
+	break;
+		
 	case "domanda 1":
 	$response = "risposta 1";
 	break;
