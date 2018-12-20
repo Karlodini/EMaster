@@ -26,7 +26,7 @@ $response = '';
 switch ($text){
 	case "/start":
 	case "/ciao":	
-	$response = "Ciao $firstname, benvenuto!";
+	$response = "Io sono il tuo EMaster. Qualsiasi cosa ti chiedo tu la devi fare. Altrimenti verrai punito";
 	break;
 		
 	case "domanda 1":
