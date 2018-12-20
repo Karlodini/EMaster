@@ -24,7 +24,8 @@ $response = '';
 
 
 switch ($text){
-	case "/start"
+	case "/start":
+	case "/ciao":	
 	$response = "Ciao $firstname, benvenuto!";
 	break;
 		
