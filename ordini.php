@@ -1,5 +1,5 @@
 <?php
-$ordini=array("Volvo",
+$ordini=array("Invia una foto senza intimo",
 "BMW",
 "Toyota");
 
