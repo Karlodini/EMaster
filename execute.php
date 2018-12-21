@@ -29,8 +29,8 @@ switch ($text){
 	$response = "Io sono il tuo EMaster. Qualsiasi cosa ti chiedo tu la devi fare. Altrimenti verrai punito/a";
 	break;
 		
-	case "domanda 1":
-	$response = "risposta 1";
+	case "reggiseno":
+	$response = "Togli il reggiseno.";
 	break;
 	
 	case "domanda 2":
