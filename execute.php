@@ -29,7 +29,7 @@ switch ($text){
 	$response = "Io sono il tuo EMaster. Qualsiasi cosa ti chiedo tu la devi fare. Altrimenti verrai punito/a";
 	break;
 		
-	case "reggiseno":
+	case stristr($text,'reggiseno'):
 	$response = "Togli il reggiseno.";
 	break;
 	
